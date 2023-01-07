@@ -114,7 +114,7 @@ nav a {
 
 nav a:hover {
   text-decoration: none;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -127,7 +127,7 @@ nav ul {
 }
 
 .active {
-  color: #f783ae;
+  color: #fafafa;
 }
 
 #logo-img {
@@ -160,14 +160,14 @@ nav ul {
 /* Search Icon */
 
 #search-icon {
-  color: white;
+  color: rgb(136, 136, 136);
   padding: 0 32px;
   cursor: pointer;
   transition: 0.4s;
 }
 
 #search-icon:hover {
-  color: red;
+  color: rgb(140, 140, 140);
 }
 
 /* Slideout Menu */
@@ -228,7 +228,7 @@ section {
 
 .section-heading:hover {
   padding: 4px 48px;
-  background: red;
+  background: rgb(125, 125, 125);
 }
 
 /* Section Source */
@@ -283,7 +283,7 @@ section {
 }
 
 .btn-readmore:hover {
-  background: red;
+  background: rgb(5, 5, 5);
   text-decoration: none;
   padding: 8px 64px 8px 24px;
   color: white;
@@ -292,6 +292,8 @@ section {
 /* Footer */
 
 footer {
+  width: 100%;
+  border-radius:10px ;
   background: black;
   padding: 8px;
   color: #eee;
@@ -304,7 +306,7 @@ footer a {
 
 footer #left-footer {
   flex: 1;
-  border-right: 1px solid red;
+  border-right: 1px solid rgb(0, 0, 0);
   padding-left: 32px;
 }
 
@@ -341,7 +343,7 @@ footer #social-media-footer ul li {
 }
 
 footer #social-media-footer ul li:hover a .fa-youtube {
-  color: red;
+  color: rgb(105, 104, 104);
 }
 
 footer #social-media-footer ul li:hover a .fa-facebook {
@@ -367,7 +369,7 @@ footer #social-media-footer ul li:hover a .fa-github {
 
 .page-heading:hover{
   padding:4px 48px;
-  background:red;
+  background:rgb(145, 145, 145);
 }
 
 .card-meta{
@@ -557,4 +559,10 @@ h3{
   main {
     width: 85%;
   }
+}
+.none{
+  opacity: 0;
+}
+.footer-dlo{
+  font-size: 23px;
 }
