@@ -4,8 +4,9 @@ body {
 }
 
 h1 {
+  
   padding: 8px;
-  background: rgba(255, 0, 0, 0.8);
+  background: black;
   border-radius: 8px;
   margin: 0;
   font-size: 64px;
@@ -14,6 +15,8 @@ h1 {
 
 p {
   line-height: 1.5;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 main {
@@ -528,6 +531,14 @@ footer #social-media-footer ul li:hover a .fa-github {
   #logo-img {
     padding: 0;
   }
+}
+
+img{
+  border-radius: 10px;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
 }
 
 @media (min-width: 720px) {
